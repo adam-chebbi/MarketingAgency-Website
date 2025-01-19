@@ -1,0 +1,111 @@
+/* Responsive.css - Adjusts styles for different screen sizes */
+
+/* General Reset for Small Screens */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  /* Responsive Navbar */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar a {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 24px;
+  }
+  
+  .hero-section p {
+    font-size: 16px;
+  }
+  
+  /* Services Section */
+  .services-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .service-item {
+    font-size: 14px;
+  }
+  
+  /* Team Section */
+  .team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  /* Footer */
+  .footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .hero-section h1 {
+      font-size: 36px;
+    }
+  
+    .hero-section p {
+      font-size: 18px;
+    }
+  
+    .services-section {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .team-section {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-section {
+      padding: 100px 20px;
+    }
+  
+    .services-section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .team-section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  

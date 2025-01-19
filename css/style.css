@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #00ff88;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../assets/images/hero-bg.jpg') no-repeat center center/cover;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .hero button {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    background-color: #00ff88;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #00cc6e;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 5rem 2rem;
+    background-color: #111;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #00ff88;
+  }
+  
+  .services .service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .services .service-item img {
+    width: 80px;
+    height: 80px;
+    margin-right: 1.5rem;
+  }
+  
+  .services .service-item h3 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: #222;
+  }
+  
+  .team h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #00ff88;
+  }
+  
+  .team .member {
+    margin: 1rem;
+    display: inline-block;
+  }
+  
+  .team .member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+    border: 3px solid #00ff88;
+  }
+  
+  .team .member h3 {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #000;
+    color: #ccc;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
+  .footer a {
+    color: #00ff88;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #00cc6e;
+  }
+  
